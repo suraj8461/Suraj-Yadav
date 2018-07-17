@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main() //from Here compiler Starts
+{
+    //This Program Is completely Based on 16bit Turbo C complier
+    int f,s;  //Initializing Two Variable to Store The Value
+    
+    clrscr(); //conio.h Function Used To Clear The Previous Output
+    
+    printf("Enter The first Number : "); 
+    scanf("%d",&f); //Taking First Number From User
+    
+    printf("Enter The Second Number : ");
+    scanf("%d",&s); //Taking Second Number From User
+    
+    f = f + s - (b = a);  //swapping Using Single Line
+    
+    printf("After Swapping\nFirst Number = %d\nSecond Number = %d",f,s);  //display After Swapping
+    
+    getch();  //This Function Is Used to Hold The Screen Until Pressing Any Key
+    
+ }
